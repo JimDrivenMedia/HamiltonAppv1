@@ -1,0 +1,112 @@
+
+.campus-map {
+ background-image: url("images/campusmap-large.jpg");
+ background-repeat: no-repeat;
+ display: block;
+ height: 2000px;
+ width: 2000px;
+}
+
+#home-topbar {
+   min-height: 96px;
+}
+
+
+#homeheader {
+    background: #84CDEE;
+    border: 0;
+}
+.footer {
+    background: #ccc;
+    clear: both;
+    margin-top: -100px;
+    padding-top: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.myclass {
+   list-style-type: none;
+}
+.hrstext p {
+   color: #000000;
+   font-size: 13px;
+    line-height: 1;
+}
+
+.today {
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.rssBody ul, .rssRow {
+   margin-left: 0;
+   padding-left: 0;
+   list-style: none;
+}
+.rssRow h4 { margin: 0; font-size: 1.2em; letter-spacing: -1px; }
+.rssRow h4 a { text-decoration: none; }
+.rssRow h4 a:hover { color: darkblue; }
+.rssRow div { font-size: 0.9em; color: #999; }
+#zazar { color: #fff; }
+
+
+/* iScroll */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+.ui-content {
+    padding: 0 !important;
+}
+
+.ui-listview {
+    margin: 0 !important;
+}
+
+body {
+	/* On modern browsers, prevent the whole page to bounce */
+	overflow: hidden;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+
+#scroller {
+	
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+	background: #fff;
+}
+
